@@ -4,7 +4,7 @@
 
    a. Mean
 
-   -  [X] b. Median
+- [x]    b. Median
 
    c. Mode
 
@@ -16,7 +16,7 @@
 
    a. Mean
 
-   -  [x] b. Median
+- [x]    b. Median
 
    c. Mode
 
@@ -32,7 +32,7 @@
 
    c. Mode
 
-  - [X] d. Range
+- [x]    d. Range
 
   
 
@@ -40,7 +40,7 @@
 
    a. Range
 
-   -  [x] b. Standard Deviation
+- [x]    b. Standard Deviation
 
    c. Mean
 
@@ -56,7 +56,7 @@
 
    c. Mode
 
-   -  [X] d. Variance
+- [x]    d. Variance
 
   
 
@@ -64,7 +64,7 @@
 
    a. Mean
 
-   -  [X] b. Median
+- [x]    b. Median
 
    c. Mode
 
@@ -78,7 +78,7 @@
 
    b. Median
 
-   -  [X] c. Mode
+- [x]    c. Mode
 
    d. Range
 
@@ -91,7 +91,7 @@
 
    b. Standard Deviation
 
-   -  [X] c. Interquartile Range (IQR)
+- [x]    c. Interquartile Range (IQR)
 
    d. Mean
 
@@ -101,7 +101,7 @@
 
   a. To make predictions about future events.
 
-  -  [X] b. To summarize and describe the main features of a dataset.
+- [x]    b. To summarize and describe the main features of a dataset.
 
   c. To test hypotheses and draw conclusions.
 
@@ -115,13 +115,13 @@
 
     b. Three
 
-    -  [x] c. Four
+- [x]    c. Four
 
     d. Five
 
 11. Which measure of central tendency is influenced the most by extreme values?
 
-    -  [X] a. Mean
+- [x]    a. Mean
 
     b. Median
 
@@ -133,7 +133,7 @@
 
 12. What do we call the values that fall outside the upper and lower fences?
 
- - [X] a. Outliers
+- [x]    a. Outliers
 
   b. Quartiles
 
@@ -147,7 +147,7 @@
 
     a. Range
 
-  - [X]  b. Variance
+- [x]    b. Variance
 
     c. Interquartile Range (IQR)
 
@@ -161,7 +161,7 @@
 
     b. Median
 
-    -  [X] c. Mode
+- [x]    c. Mode
 
     d. Range
 
@@ -170,7 +170,7 @@
 
 15. The first quartile (Q1) represents the:
 
-    -  [x] a. Lower 25% of the data
+- [x]    a. Lower 25% of the data
 
     b. Lower 50% of the data
 
@@ -182,7 +182,7 @@
 
 16. What does the standard deviation of a dataset indicate?
 
-     -  [X] a. The square root of the variance.
+- [x]    a. The square root of the variance.
 
     b. The difference between the maximum and minimum values.
 
@@ -198,7 +198,7 @@
 
   b. Median
 
-   - [x] c. Interquartile Range (IQR)
+- [x]    c. Interquartile Range (IQR)
 
    d. Standard Deviation
 
@@ -232,7 +232,7 @@
 
     a. It is easier to calculate
 
-    -  [x]  b. It is less affected by outliers
+- [x]    b. It is less affected by outliers
 
     c. It always represents the center of the data
 
