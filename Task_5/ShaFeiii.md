@@ -134,7 +134,7 @@
 - **Example:**
 	- A sample of 50 students has an average test score of **75**, with a standard deviation of **10**. Find a **95% confidence interval** for the population mean.
    
-	![MeanExample](Task_5/images/MeanExample.png)
+	![MeanExample](./images/MeanExample.png)
 
 	- We are **95% confident** that the true mean test score of all students is between **72.24 and 77.76**.
 
