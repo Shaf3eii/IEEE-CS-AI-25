@@ -123,7 +123,7 @@
 - **Lower confidence level → Narrower interval (more precision, less certainty).**
 
 ##### Formula for Confidence Interval (Mean)
- ![images/MeanFormula.png]
+ ![Task_5/images/MeanFormula.png]
 - **$X$** = Sample mean
 - Z = Z-score
 - **σ** = Population standard deviation
@@ -131,18 +131,18 @@
 
 - **Example:**
 	- A sample of 50 students has an average test score of **75**, with a standard deviation of **10**. Find a **95% confidence interval** for the population mean.
-	![images/MeanExample.png]
+	![Task_5/images/MeanExample.png]
 	- We are **95% confident** that the true mean test score of all students is between **72.24 and 77.76**.
 
 ##### Formula for Confidence Interval (Proportion)
-![image/ProportionFormula.png]
+![Task_5/images/ProportionFormula.png]
 - $P$ = Sample proportion (successes / total trials)
 - $Z$ = Z-score
 - $n$ = Sample size
 
 - **Example:**
 	- In a survey of **500** people, **40% (0.40)** support a new law. Find a **95% confidence interval**.
-	![ProportionExample.png]
+	![Task_5/images/ProportionExample.png]
 	- We are **95% confident** that the true proportion of people who support the law is between **35.7% and 44.3%**.
 
 ***
@@ -156,7 +156,7 @@
 ##### Types of Regression Analysis
 - **Simple Linear Regression (One Independent Variable):**
 	- Used when there is **one predictor (X) and one outcome (Y)**.  
-	![images/LinearRegression.png]
+	![Task_5/images/LinearRegression.png]
 	- $Y$ = Dependent variable (what we predict)
 	- $X$ = Independent variable (predictor)
 	- $β0$ = Intercept (value of Y when X = 0)
@@ -165,11 +165,11 @@
 
 - **Multiple Linear Regression (More than One Independent Variable):**
 	- Used when there are **multiple predictors (X1, X2, X3, ...)**.
-	![images/MultipleRegression.png]
+	![Task_5/images/MultipleRegression.png]
 	- شرحنا معناهم فوق 
 
 - **Polynomial Regression (Curved Relationships):**
 	- When data follows a **non-linear** pattern, we extend linear regression by adding powers of X:
-	![images/PolynomailRegression.png]
+	![Task_5/images/PolynomailRegression.png]
 ***
 ***
