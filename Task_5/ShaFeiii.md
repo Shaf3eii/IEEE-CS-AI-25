@@ -123,7 +123,8 @@
 - **Lower confidence level → Narrower interval (more precision, less certainty).**
 
 ##### Formula for Confidence Interval (Mean)
- ![MeanFormula](Task_5/images/MeanFormula.png)
+ ![Mean Formula](Task_5/images/MeanFormula.png)
+
 - **$X$** = Sample mean
 - Z = Z-score
 - **σ** = Population standard deviation
