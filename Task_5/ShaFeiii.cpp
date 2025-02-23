@@ -49,3 +49,89 @@ class Solution {
             return {double(Min), double(Max), double(mean), double(median), double(mode)};
         }
     };
+
+
+
+
+
+
+// Python Solution 
+class Solution:
+def sampleStats(self, count: List[int]) -> List[float]:
+    Min , Max, Mode, Mean = 260, -1, 0, 0
+    sz = 0
+    for i in range(0, 256):
+        if count[i]:
+            Min = min(i, Min)
+            Max = max(i, Max)
+            Mean += i * count[i]
+            sz += count[i]
+            Mode = i if count[i] > count[Mode] else Mode
+    Mean /= sz
+    Median = 0
+    Target = sz // 2 + 1
+    Last = -1
+    CurCount = 0
+
+    for i in range(0, 256):
+        if not count[i]: continue
+
+        CurCount += count[i]
+
+        if sz & 1: 
+            if CurCount >= Target:
+                Median = i
+                break
+        else:
+            if CurCount == sz / 2:
+                Last = i
+            elif CurCount > sz / 2:
+                Median = (Last + i) / 2.0 if Last != -1 else i
+                break
+                
+    return [Min, Max, Mean, Median, Mode]
+
+
+
+    // Jave Solution
+    class Solution {
+        public double[] sampleStats(int[] count) {
+            int Min = 260, Max = -1, Mode = 0, sz = 0;
+            long Sum = 0;
+            double Mean = 0.0, Median = 0.0;
+            for (int i = 0; i < 256; ++i) {
+                if (count[i] > 0) {
+                    Min = Math.min(Min, i);
+                    Max = Math.max(Max, i);
+                    Sum += (long) i * count[i];
+                    sz += count[i];
+                    if (count[Mode] < count[i]) {
+                        Mode = i;
+                    }
+                }
+            }
+            Mean = (double) Sum / sz;
+            int Target = sz / 2 + 1;
+            int Last = -1, CurCount = 0;
+    
+            for (int i = 0; i < 256; ++i) {
+                if (count[i] == 0) continue;
+    
+                CurCount += count[i];
+                if (sz % 2 == 1) {
+                    if (CurCount >= Target) {
+                        Median = i;
+                        break;
+                    }
+                } else {
+                    if (CurCount == sz / 2) {
+                        Last = i;
+                    } else if (CurCount > sz / 2) {
+                        Median = (Last != -1) ? (Last + i) / 2.0 : i;
+                        break;
+                    }
+                }
+            }
+            return new double[]{Min, Max, Mean, Median, Mode};
+        }
+    }
