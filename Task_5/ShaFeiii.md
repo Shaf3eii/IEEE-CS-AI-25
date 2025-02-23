@@ -124,7 +124,7 @@
 
 ##### Formula for Confidence Interval (Mean)
 
- ![Mean Formula](Task_5/images/MeanFormula.png)
+ ![Mean Formula](./images/MeanFormula.png)
 
 - **$X$** = Sample mean
 - Z = Z-score
@@ -140,7 +140,7 @@
 
 ##### Formula for Confidence Interval (Proportion)
 
-![ProportionFormula](Task_5/images/ProportionFormula.png)
+![ProportionFormula](./images/ProportionFormula.png)
 
 - $P$ = Sample proportion (successes / total trials)
 - $Z$ = Z-score
@@ -149,7 +149,7 @@
 - **Example:**
 	- In a survey of **500** people, **40% (0.40)** support a new law. Find a **95% confidence interval**.
    
-	![ProportionExample](Task_5/images/ProportionExample.png)
+	![ProportionExample](./images/ProportionExample.png)
 
 	- We are **95% confident** that the true proportion of people who support the law is between **35.7% and 44.3%**.
 
@@ -165,7 +165,7 @@
 - **Simple Linear Regression (One Independent Variable):**
 	- Used when there is **one predictor (X) and one outcome (Y)**.
    
-	![LinearRegression](Task_5/images/LinearRegression.png)
+	![LinearRegression](./images/LinearRegression.png)
 
 	- $Y$ = Dependent variable (what we predict)
 	- $X$ = Independent variable (predictor)
@@ -176,12 +176,12 @@
 - **Multiple Linear Regression (More than One Independent Variable):**
 	- Used when there are **multiple predictors (X1, X2, X3, ...)**.
    
-	![MultipleRegression](Task_5/images/MultipleRegression.png)
+	![MultipleRegression](./images/MultipleRegression.png)
 	- شرحنا معناهم فوق 
 
 - **Polynomial Regression (Curved Relationships):**
 	- When data follows a **non-linear** pattern, we extend linear regression by adding powers of X:
    
-	![PolynomailRegression](Task_5/images/PolynomailRegression.png)
+	![PolynomailRegression](./images/PolynomailRegression.png)
 ***
 ***
